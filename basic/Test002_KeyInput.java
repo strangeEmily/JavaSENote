@@ -3,7 +3,7 @@ package basic;
 public class Test002_KeyInput {
     public static void main(String[] args){
         //*******接收用户键盘输入练习**********
-        //第一步：创建键盘扫描器对象
+        //第一步：创建对象接受键盘输入  System.in是系统标准的输入流
         java.util.Scanner s = new  java.util.Scanner(System.in);
         //第二步：调用Scanner对象的next()方法开始接受用户键盘输入
         //        程序停在这里，等待用户输入

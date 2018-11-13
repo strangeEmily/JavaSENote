@@ -21,7 +21,7 @@ package array;
 * */
 
 /*以下示例均已一维数组为例*/
-public class ArrayTest01 {
+public class ArrayTest01_OneDimension {
     public static void main(String[] args){
         //数组声明 - 元素为基本数据类型
         int i01[] = {1,2,3,4};
