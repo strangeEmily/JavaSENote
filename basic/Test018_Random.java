@@ -1,6 +1,8 @@
 package basic;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -36,7 +38,6 @@ public class Test018_Random {
                 i3++;
             }
         }
-
         for (int i = 0;i < ar.length;i++){
             System.out.println(ar[i]);
         }
