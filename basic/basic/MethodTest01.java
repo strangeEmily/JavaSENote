@@ -1,5 +1,7 @@
 package basic;
 
+import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
+
 public class MethodTest01 {
 
     /**
@@ -49,6 +51,7 @@ public class MethodTest01 {
 //    方法定义
     public static int sumInt(int a, int b){
         int c = a + b;
+        String test = "testx";
         return c;
     }
 
